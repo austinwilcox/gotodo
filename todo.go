@@ -18,3 +18,7 @@ func UpdateTodo(oldTitle, newTitle string) string {
 	message := fmt.Sprintf("Updating todo from title: %s to new title: %s\n", oldTitle, newTitle)
 	return message
 }
+
+func lowerCaseNonCallableFunction() string {
+	return "This is a non-callable function from outside the package."
+}
